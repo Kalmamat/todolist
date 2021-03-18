@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+<section class="task-content">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-7 ">
+                <h1 class="my-5">Трекер задач</h1>
+                <div class=" p-3 mb-5 tasks-inputs">
+                    <h2>Создать новую задачу</h2>
+                    <form class="task-form add-form">
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Описание</label>
+                            <input type="text" class="task-description form-control" id="description"
+                                   placeholder="Введите описание" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="priority" class="form-label">Приоритет</label>
+                            <select class="task-priority form-select" id="priority">
+                                <option value="Low">Low</option>
+                                <option value="Middle">Middle</option>
+                                <option value="High">High</option>
+                            </select>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="assign" class="form-label">Назначить</label>
+                            <input type="text" class="task-assign form-control" id="assign"
+                                   placeholder="Введите ответственного" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">+ Добавить</button>
+                    </form>
+                </div>
+                <div class="task-list">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(107.75deg, rgba(231, 37, 24, 0.74) 3.41%, rgba(254, 100, 21, 0.74) 90.05%);
+}
+.task-content{
+
+}
+.tasks-inputs{
+    background: rgba(255, 255, 255, 0.54);
+    border-radius: 5px;
+}
+
+.task-cards{
+    background: rgba(255, 255, 255, 0.54);
+    border-radius: 5px;
+}
